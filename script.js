@@ -27,7 +27,7 @@ function submitfn(event) {
         let randomnum=(Math.random()*126+33);
         let token=str+String.fromCharCode(randomnum);
         localStorage.setItem('accesstoken',token);
-        setTimeout(redirectfunc,2000);
+        setTimeout(redirectfunc,1000);
         if(!document.getElementsByClassName('green')[0])
         {
           commentsdiv.append(div);
