@@ -11,7 +11,7 @@ function submitfn(event) {
       let commentsdiv= document.getElementsByClassName('comments')[0];
     if(name && email && password && confirmpass && password==confirmpass)
     {
-        if(document.getElementsByClassName('red'[0]))
+        if(document.getElementsByClassName('red')[0])
         {
             document.getElementsByClassName('red')[0].remove();
         }
