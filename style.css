@@ -1,1 +1,68 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+}
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 2px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.atags {
+    display: flex;
+    column-gap: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+    row-gap: 20px;
+}
+
+form input {
+    width: 60vw;
+    background-color: black;
+    outline: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    height: 12px;
+    font-size: 16px;
+}
+
+form button {
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+#signuplink {
+    background-color: burlywood;
+    height: 25px;
+    padding: 10px;
+}

@@ -1,0 +1,17 @@
+#profilelink {
+    background-color: burlywood;
+    height: 25px;
+    padding: 10px;
+}
+
+#profile,#fullname,#email,#password {
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+#logoutbtn {
+    margin-left: 35px;
+    padding: 10px;
+    cursor: pointer;
+}
